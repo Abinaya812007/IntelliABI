@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "question": "What does VLSI stand for?",
+      "answer": "VLSI = Very Large Scale Integration\nIt means integrating millions of transistors on a single silicon chip to make a complete circuit."
+    },
+    {
+      "question": "What is the difference between LSI, MSI, and VLSI?",
+      "answer": "SSI (Small Scale Integration) – <100 transistors\nMSI (Medium Scale Integration) – 100–1000 transistors\nLSI (Large Scale Integration) – 1000–10000 transistors\nVLSI (Very Large Scale Integration) – >10,000 transistors"
+    },
+    {
+      "question": "What are the main advantages of VLSI technology?",
+      "answer": "Reduces size of circuits\nIncreases speed of operation\nLowers power consumption\nCost-effective for mass production\nImproved reliability (less wiring → fewer faults)"
+    },
+    {
+      "question": "Who is known as the father of VLSI?",
+      "answer": "Carver Mead is considered the Father of VLSI design for his pioneering work in MOS technology and chip design methodologies."
+    },
+    {
+      "question": "What is Moore's Law?",
+      "answer": "Gordon Moore observed that the number of transistors on a chip doubles every 18–24 months, leading to higher performance and lower cost per transistor."
+    },
+    {
+      "question": "What are the major applications of VLSI?",
+      "answer": "Microprocessors & microcontrollers\nMobile phones & laptops\nMemory chips (RAM, ROM, Flash)\nDigital signal processors (DSPs)\nAutomotive and medical electronics"
+    },
+    {
+      "question": "What is the role of VLSI in modern electronics?",
+      "answer": "VLSI helps make devices smaller, faster, cheaper, and smarter.\nWithout VLSI, computers, smartphones, and IoT devices wouldn't be possible."
+    },
+    {
+      "question": "Explain the difference between ASIC and FPGA.",
+      "answer": "Feature\tASIC\tFPGA\nMeaning\tApplication Specific IC\tField Programmable Gate Array\nCustomization\tFixed for one task\tReconfigurable\nCost\tHigh for small quantity\tLow for small quantity\nSpeed\tFaster\tSlower"
+    },
+    {
+      "question": "What are the key design steps in a VLSI design flow?",
+      "answer": "Specification\nRTL Design (using Verilog/VHDL)\nFunctional Verification\nLogic Synthesis\nFloorplanning\nPlacement and Routing\nTiming Analysis\nFabrication\nTesting"
+    },
+    {
+      "question": "What is the significance of CMOS technology in VLSI?",
+      "answer": "CMOS = Complementary MOS (NMOS + PMOS)\nIt is low power, high noise immunity, and high density.\nUsed in almost all modern ICs."
+    },
+    {
+      "question": "What is the difference between analog and digital VLSI?",
+      "answer": "Analog VLSI → deals with continuous signals (like amplifiers, sensors).\nDigital VLSI → deals with 0s and 1s (like processors, memory)."
+    },
+    {
+      "question": "What are the common design metrics in VLSI?",
+      "answer": "Area – chip size\nPower – energy consumed\nSpeed (Delay) – performance\nCost – fabrication cost\nReliability – how stable it runs"
+    },
+    {
+      "question": "What are the limitations of VLSI scaling?",
+      "answer": "Short channel effects\nLeakage currents\nHigh heat generation\nFabrication complexity\nQuantum tunneling (at nano scale)"
+    },
+    {
+      "question": "Define RTL (Register Transfer Level).",
+      "answer": "RTL is a design level where the flow of data between registers and the operations on that data are described using HDL (like Verilog)."
+    },
+    {
+      "question": "What is SoC (System on Chip)?",
+      "answer": "A complete electronic system integrated on a single chip, including CPU, memory, I/O, and peripherals."
+    },
+    {
+      "question": "What are IP cores in VLSI design?",
+      "answer": "IP Core = Intellectual Property Core\nIt is a reusable block of logic (like UART, ADC, etc.) used to save design time."
+    },
+    {
+      "question": "What is an HDL (Hardware Description Language)?",
+      "answer": "HDL is used to describe hardware behavior and structure in code form.\nExamples: Verilog, VHDL, SystemVerilog"
+    },
+    {
+      "question": "Give examples of popular HDLs.",
+      "answer": "Verilog\nVHDL\nSystemVerilog\nChisel (modern)"
+    },
+    {
+      "question": "What is the importance of verification in VLSI design?",
+      "answer": "Verification ensures that the design works correctly before fabrication.\nIt detects bugs and logical errors early."
+    },
+    {
+      "question": "What are some popular VLSI design tools used in the industry?",
+      "answer": "Cadence (Virtuoso, Genus, Innovus)\nSynopsys (Design Compiler, PrimeTime)\nMentor Graphics (ModelSim, Calibre)\nXilinx / Intel Quartus (for FPGA design)"
+    },
+    {
+      "question": "What is a semiconductor?",
+      "answer": "A semiconductor is a material whose electrical conductivity lies between a conductor and an insulator.\nExample: Silicon (Si) and Germanium (Ge).\nIt conducts electricity partially and its conductivity can be controlled using impurities or temperature."
+    },
+    {
+      "question": "Explain the difference between intrinsic and extrinsic semiconductors?",
+      "answer": "Intrinsic semiconductor: Pure form (no impurities), e.g., pure silicon.\nExtrinsic semiconductor: Impure form (doping added to increase conductivity)."
+    },
+    {
+      "question": "What is doping in semiconductors?",
+      "answer": "Doping is the process of adding impurities (like Boron or Phosphorus) to pure silicon to improve its conductivity.\n\nBoron → P-type\n\nPhosphorus → N-type"
+    },
+    {
+      "question": "What are P-type and N-type semiconductors?",
+      "answer": "P-type: Doped with trivalent impurities (Boron) → creates holes as majority carriers.\n\nN-type: Doped with pentavalent impurities (Phosphorus) → creates electrons as majority carriers."
+    },
+    {
+      "question": "What is a PN junction?",
+      "answer": "When P-type and N-type semiconductors are joined together, a PN junction is formed.\nIt allows current to flow only in one direction (forward bias)."
+    },
+    {
+      "question": "What is diffusion in semiconductor fabrication?",
+      "answer": "Diffusion is the process of moving dopant atoms into the silicon wafer at high temperature so that they spread evenly."
+    },
+    {
+      "question": "Explain carrier mobility.",
+      "answer": "Mobility is how easily electrons or holes move through a semiconductor when an electric field is applied.\n\nSymbol: μ (mu)\n\nUnit: cm²/V·s"
+    },
+    {
+      "question": "What is the Fermi level?",
+      "answer": "The Fermi level is the energy level that indicates the probability of finding an electron at a particular energy.\nIn simple terms - it shows how full or empty the electron states are."
+    },
+    {
+      "question": "What is a depletion region?",
+      "answer": "In a PN junction, when electrons and holes combine near the junction, a region with no free charge carriers forms — this is called the depletion region."
+    },
+    {
+      "question": "What is avalanche breakdown?",
+      "answer": "When reverse voltage applied to a PN junction becomes very high, electrons gain enough energy to knock off other electrons, creating a sudden large current — this is avalanche breakdown."
+    },
+    {
+      "question": "What is the bandgap of Silicon?",
+      "answer": "The bandgap of silicon = 1.12 eV (electron volts) at room temperature.\nIt represents the energy difference between the valence band and conduction band."
+    },
+    {
+      "question": "Why is Silicon used in VLSI?",
+      "answer": "Abundant and cheap\nStable oxide (SiO₂) can be formed easily\nGood semiconductor properties\nCan handle high temperatures\nCompatible with IC fabrication"
+    },
+    {
+      "question": "What is the difference between Silicon and Gallium Arsenide (GaAs)?",
+      "answer": "Property\tSilicon\tGallium Arsenide\nCost\tCheap\tExpensive\nSpeed\tModerate\tFaster\nBandgap\t1.12 eV\t1.43 eV\nApplication\tGeneral ICs\tHigh-frequency, microwave devices"
+    },
+    {
+      "question": "What are MOS and CMOS devices?",
+      "answer": "MOS (Metal–Oxide–Semiconductor): Basic transistor structure used in ICs.\n\nCMOS (Complementary MOS): Combination of NMOS + PMOS transistors.\nIt provides low power consumption and high noise immunity."
+    },
+    {
+      "question": "What are the physical limits of miniaturization in VLSI?",
+      "answer": "Quantum effects start dominating\nLeakage current increases\nHeat dissipation problems\nFabrication precision becomes difficult\nShort channel effects reduce transistor control"
+    },
+    {
+      "question": "What is wafer fabrication?",
+      "answer": "Wafer fabrication is the process of creating integrated circuits (ICs) on a thin circular slice of silicon called a wafer.\nIt involves many steps like oxidation, lithography, etching, and doping."
+    },
+    {
+      "question": "What is photolithography?",
+      "answer": "Photolithography is a process of transferring patterns from a mask onto the silicon wafer using light (UV rays).\nSteps include:\n\nCoat wafer with photoresist\nExpose to UV light through mask\nDevelop image\nEtch unwanted parts"
+    },
+    {
+      "question": "What is oxidation in VLSI fabrication?",
+      "answer": "Oxidation means forming a thin layer of silicon dioxide (SiO₂) on the wafer surface by exposing it to oxygen at high temperature.\nIt acts as an insulator or protective layer."
+    },
+    {
+      "question": "What is ion implantation?",
+      "answer": "Ion implantation is a doping method where high-speed ions of impurities (like Boron, Phosphorus) are shot into the silicon wafer using an ion beam.\nIt gives precise control over doping level and depth."
+    },
+    {
+      "question": "What is epitaxy?",
+      "answer": "Epitaxy is the process of growing a thin crystalline layer on the wafer surface.\nIt provides a high-quality base for device fabrication."
+    },
+    {
+      "question": "Explain diffusion and its importance.",
+      "answer": "Diffusion is the movement of dopant atoms from high concentration to low concentration within silicon at high temperature.\nUsed for doping and forming PN junctions."
+    },
+    {
+      "question": "What is metallization?",
+      "answer": "Metallization is the process of depositing a metal layer (like aluminum or copper) on the wafer for making electrical connections between components."
+    },
+    {
+      "question": "What is chemical vapor deposition (CVD)?",
+      "answer": "In CVD, gases react at high temperature to form a solid thin film (like SiO₂ or Si₃N₄) on the wafer surface.\nIt's used for insulation, passivation, or layer deposition."
+    },
+    {
+      "question": "What is the difference between wet and dry etching?",
+      "answer": "Type\tProcess\tExample\tFeatures\nWet Etching\tUses liquid chemicals\tHF acid\tFast but less control\nDry Etching\tUses plasma or gases\tPlasma Etching\tPrecise and clean edges"
+    },
+    {
+      "question": "What are clean room standards in fabrication?",
+      "answer": "Clean rooms are dust-free environments used for IC fabrication.\nThey have controlled air pressure, humidity, and temperature.\nClass is defined by number of dust particles per cubic meter (e.g., Class 100)."
+    },
+    {
+      "question": "What is CMP (Chemical Mechanical Polishing)?",
+      "answer": "CMP smoothens the wafer surface using chemical slurry and mechanical polishing.\nUsed after deposition or etching to make surface flat (planar)."
+    },
+    {
+      "question": "What is yield in fabrication?",
+      "answer": "Yield means the percentage of good chips obtained from a wafer after fabrication.\n\nYield = Good Chips / Total Chips × 100"
+    },
+    {
+      "question": "What is wafer testing?",
+      "answer": "After fabrication, each chip is tested electrically before packaging.\nChips that fail are marked and discarded."
+    },
+    {
+      "question": "Explain packaging in VLSI.",
+      "answer": "Packaging means enclosing the chip in a protective case with external pins or pads.\nIt:\n\nProtects chip from damage\nAllows connection to circuit board"
+    },
+    {
+      "question": "What are mask layers in fabrication?",
+      "answer": "Mask layers are patterns that define different regions on a wafer for each process step (like doping, etching, or metallization).\nEach mask corresponds to one layer in the IC."
+    },
+    {
+      "question": "What is the role of a photoresist in lithography?",
+      "answer": "Photoresist is a light-sensitive material coated on the wafer.\nWhen exposed to UV light, it becomes soluble or insoluble depending on the type:\n\nPositive resist → Exposed part removed\n\nNegative resist → Unexposed part removed"
+    },
+    {
+      "question": "What is the difference between front-end and back-end processes?",
+      "answer": "Process\tDescription\nFront-End\tFormation of transistors and active devices on wafer (oxidation, doping, lithography).\nBack-End\tMetal interconnections and packaging (metallization, CMP, testing)."
+    },
+    {
+      "question": "What are defects in wafer fabrication?",
+      "answer": "Defects are imperfections on the wafer that reduce yield.\nTypes:\n\nParticle contamination\nPattern misalignment\nEtching defects\nCrystal dislocation"
+    },
+    {
+      "question": "Explain planarization.",
+      "answer": "Planarization is the process of flattening the wafer surface after each layer deposition so that the next layer can be added smoothly.\nCMP is the main technique used."
+    },
+    {
+      "question": "What is wafer dicing?",
+      "answer": "Dicing is the process of cutting the wafer into individual dies (chips) after fabrication and testing."
+    },
+    {
+      "question": "What is a MOSFET?",
+      "answer": "MOSFET stands for Metal-Oxide-Semiconductor Field Effect Transistor.\nIt is the basic building block of digital ICs.\nIt controls the flow of current between the Source and Drain terminals using a voltage at the Gate."
+    },
+    {
+      "question": "What are the terminals of a MOSFET?",
+      "answer": "MOSFET has four terminals:\n\nGate (G) – Controls the transistor\nSource (S) – Provides charge carriers\nDrain (D) – Collects charge carriers\nBody (B) – Substrate connection (usually grounded)"
+    },
+    {
+      "question": "Explain the working of NMOS and PMOS transistors.",
+      "answer": "NMOS: Current flows when positive voltage is applied to the gate (electrons are carriers).\n\nPMOS: Current flows when negative voltage is applied to the gate (holes are carriers)."
+    },
+    {
+      "question": "What is threshold voltage (Vth)?",
+      "answer": "Threshold voltage is the minimum gate voltage needed to turn ON the MOSFET (allow current to flow)."
+    },
+    {
+      "question": "What is channel length modulation?",
+      "answer": "When the drain voltage increases, the effective channel length inside the MOSFET decreases slightly — causing a small increase in drain current even after saturation."
+    },
+    {
+      "question": "What is CMOS inverter?",
+      "answer": "A CMOS inverter consists of one PMOS and one NMOS transistor connected together.\n\nWhen input = 1 → output = 0\n\nWhen input = 0 → output = 1"
+    },
+    {
+      "question": "What is noise margin in CMOS design?",
+      "answer": "Noise margin is the maximum noise voltage that a digital circuit can tolerate without changing its correct logic level."
+    },
+    {
+      "question": "What is power dissipation in CMOS circuits?",
+      "answer": "Power dissipation is the amount of power consumed by a circuit during operation.\nIn CMOS, power mainly comes from:\n\nDynamic power – due to switching\nStatic power – due to leakage"
+    },
+    {
+      "question": "What are static and dynamic power?",
+      "answer": "Type\tCause\tExample\nStatic Power\tLeakage current when circuit is idle\tSubthreshold leakage\nDynamic Power\tCharging and discharging of capacitance during switching\tClock transition power"
+    },
+    {
+      "question": "What is scaling in MOSFETs?",
+      "answer": "Scaling means reducing the size (length, width, oxide thickness) of MOSFETs to improve speed, density, and power efficiency."
+    },
+    {
+      "question": "What are short-channel effects?",
+      "answer": "When the channel length becomes very small (in nanometers), unwanted effects appear:\n\nThreshold voltage reduction\nDrain-Induced Barrier Lowering (DIBL)\nVelocity saturation\nIncreased leakage current"
+    },
+    {
+      "question": "What is subthreshold leakage?",
+      "answer": "Even when MOSFET is OFF, a small current still flows between source and drain — this is subthreshold leakage.\nIt increases as device size decreases."
+    },
+    {
+      "question": "Explain body effect.",
+      "answer": "When the source and body of a MOSFET are not at the same potential, the threshold voltage changes — this is the body effect."
+    },
+    {
+      "question": "What is latch-up in CMOS circuits?",
+      "answer": "Latch-up is an unwanted condition where a low-impedance path forms between VDD and GND, causing high current flow and possible chip damage."
+    },
+    {
+      "question": "How can latch-up be prevented?",
+      "answer": "Methods to avoid latch-up:\n\nUse guard rings around transistors\nProper substrate biasing\nReduce parasitic resistance\nUse SOI (Silicon On Insulator) technology"
+    },
+    {
+      "question": "What are logic gates?",
+      "answer": "Logic gates are the basic building blocks of digital circuits.\nThey perform logical operations on one or more input signals to produce an output.\n\nCommon logic gates:\n\nAND\nOR\nNOT\nNAND\nNOR\nXOR\nXNOR"
+    },
+    {
+      "question": "What is propagation delay?",
+      "answer": "Propagation delay is the time taken for the output of a logic gate to change after the input changes.\nFormula:\n\ntp = (tPLH + tPHL) / 2\n\nwhere tPLH = low to high delay, tPHL = high to low delay."
+    },
+    {
+      "question": "What is rise time and fall time?",
+      "answer": "Rise time (tr) – Time taken for output to rise from 10% to 90% of its final value.\nFall time (tf) – Time taken for output to fall from 90% to 10% of its initial value."
+    },
+    {
+      "question": "What is fan-in and fan-out?",
+      "answer": "Fan-in: Number of inputs a logic gate can handle.\n\nFan-out: Number of outputs a gate can drive properly."
+    },
+    {
+      "question": "What is setup time and hold time?",
+      "answer": "In sequential circuits:\n\nSetup time: Minimum time input should be stable before clock edge.\n\nHold time: Minimum time input should remain stable after clock edge."
+    },
+    {
+      "question": "What are combinational and sequential circuits?",
+      "answer": "Type\tDescription\tExample\nCombinational\tOutput depends only on present input\tAdders, Multiplexers\nSequential\tOutput depends on present + past input (memory)\tFlip-flops, Counters"
+    },
+    {
+      "question": "What is a flip-flop?",
+      "answer": "A flip-flop is a bistable circuit that can store one bit of data (0 or 1).\nIt changes output based on clock signal and input.\nCommon flip-flops:\n\nSR\nJK\nD\nT"
+    },
+    {
+      "question": "What is metastability in flip-flops?",
+      "answer": "Metastability happens when input data changes too close to the clock edge, causing the output to become unpredictable (neither 0 nor 1 for a short time)."
+    },
+    {
+      "question": "What are hazards and glitches in logic circuits?",
+      "answer": "Hazards are unwanted short pulses in digital circuits due to unequal propagation delays.\n\nStatic hazard: Output momentarily changes when it should remain constant.\n\nDynamic hazard: Output changes multiple times before settling."
+    },
+    {
+      "question": "What is clock skew?",
+      "answer": "Clock skew is the difference in arrival time of the clock signal at different flip-flops in a circuit.\n\nCauses:\n\nDifferent wire lengths\nBuffer delays\nUnequal loading\n\nClock skew must be minimized for correct timing."
+    },
+    {
+      "question": "What is VLSI fabrication?",
+      "answer": "VLSI fabrication is the process of creating integrated circuits (ICs) on a silicon wafer using lithography, doping, oxidation, etching, and metallization steps."
+    },
+    {
+      "question": "What is a silicon wafer?",
+      "answer": "A silicon wafer is a thin circular slice of pure silicon crystal used as the base (substrate) for IC fabrication.\n\nWafers come in sizes like 150mm, 200mm, 300mm diameter."
+    },
+    {
+      "question": "What are the main steps in IC fabrication?",
+      "answer": "Main fabrication steps include:\n\nOxidation – Grow SiO₂ layer\nPhotolithography – Pattern design on wafer\nEtching – Remove unwanted material\nDoping/Ion Implantation – Add impurities to control conductivity\nDeposition – Add new material layers\nMetallization – Create electrical connections\nPackaging – Enclose the chip"
+    },
+    {
+      "question": "What is oxidation?",
+      "answer": "Oxidation is the process of forming a thin silicon dioxide (SiO₂) layer on the wafer surface by heating it in oxygen or steam.\nTypes:\n\nDry oxidation: Si + O₂ → SiO₂\nWet oxidation: Si + 2H₂O → SiO₂ + 2H₂"
+    },
+    {
+      "question": "What is photolithography?",
+      "answer": "Photolithography is the process of transferring circuit patterns from a mask onto the wafer surface using UV light.\n\nSteps:\nApply photoresist\nAlign mask\nExpose to UV light\nDevelop and remove unwanted areas"
+    },
+    {
+      "question": "What is etching?",
+      "answer": "Etching removes unwanted material from the wafer to form specific patterns.\nTypes:\n\nWet etching: Uses chemicals\nDry etching: Uses plasma"
+    },
+    {
+      "question": "What is doping?",
+      "answer": "Doping means adding impurities to pure silicon to change its electrical properties.\nTypes:\n\nn-type: Add donors (e.g., phosphorus) → more electrons\np-type: Add acceptors (e.g., boron) → more holes"
+    },
+    {
+      "question": "What is ion implantation?",
+      "answer": "Ion implantation is a precise doping technique where high-energy ions are fired into the wafer surface to form doped regions.\n\nAdvantages:\nBetter control of depth & concentration\nLow temperature process"
+    },
+    {
+      "question": "What is metallization?",
+      "answer": "Metallization is the process of depositing metal layers (usually aluminum or copper) to form electrical connections between transistors.\n\nSteps:\nMetal deposition\nPatterning (using lithography)\nEtching unwanted metal"
+    },
+    {
+      "question": "What is wafer packaging?",
+      "answer": "Packaging is the final step in fabrication where the chip is cut, mounted, and sealed to protect it and connect to external pins.\nTypes:\n\nDIP (Dual Inline Package)\nQFP (Quad Flat Package)\nBGA (Ball Grid Array)"
+    },
+    {
+      "question": "What is EDA or CAD in VLSI?",
+      "answer": "EDA (Electronic Design Automation) or CAD (Computer-Aided Design) tools are software used to design, simulate, and verify VLSI circuits.\n\nExamples:\nCadence\nSynopsys\nMentor Graphics\nXilinx\nTanner EDA"
+    },
+    {
+      "question": "What is the VLSI design flow?",
+      "answer": "VLSI design flow is the step-by-step process followed to convert a design idea into a working IC chip.\n\nMain steps:\nSpecification\nArchitecture design\nRTL Coding (Verilog/VHDL)\nSimulation & Verification\nSynthesis\nFloorplanning & Placement\nRouting\nLayout verification (DRC, LVS)\nFabrication\nTesting & Packaging"
+    },
+    {
+      "question": "What is RTL design?",
+      "answer": "RTL (Register Transfer Level) design describes the data flow between registers using hardware description languages like Verilog or VHDL.\n\nExample:\nalways @(posedge clk)\n  q <= d;"
+    },
+    {
+      "question": "What is synthesis in VLSI?",
+      "answer": "Synthesis is the process of converting RTL code into a gate-level netlist using logic gates (AND, OR, NOT, etc.).\nTool example: Synopsys Design Compiler"
+    },
+    {
+      "question": "What is simulation and verification?",
+      "answer": "Simulation means testing the design behavior before fabrication.\nVerification ensures that the design meets the functional requirements.\n\nTools:\nModelSim\nCadence Xcelium\nSynopsys VCS"
+    },
+    {
+      "question": "What is timing analysis?",
+      "answer": "Timing analysis checks whether the design meets timing constraints, like setup and hold times, clock period, etc."
+    },
+    {
+      "question": "What is floorplanning and placement?",
+      "answer": "Floorplanning decides where major blocks (like ALU, memory, I/O) will be placed on the chip.\nPlacement arranges standard cells in a defined area.\n\nTool example: Cadence Innovus"
+    },
+    {
+      "question": "What is routing in VLSI design?",
+      "answer": "Routing connects all the components and cells using metal wires as per the layout.\n\nTwo stages:\nGlobal routing\nDetailed routing"
+    },
+    {
+      "question": "What is DRC and LVS check?",
+      "answer": "These are layout verification checks:\n\nDRC (Design Rule Check): Ensures layout follows manufacturing rules (spacing, width).\n\nLVS (Layout vs Schematic): Checks if layout matches the original circuit schematic."
+    },
+    {
+      "question": "What is testing in VLSI?",
+      "answer": "Testing is done after fabrication to ensure the chip works correctly and has no manufacturing defects.\n\nTypes:\nWafer Testing\nPackage Testing\nFunctional Testing\nParametric Testing"
+    }
+  ]
+}
