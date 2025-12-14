@@ -220,6 +220,12 @@ public class ChatService {
         return chatMessageRepository.findTop50ByUserOrderByCreatedAtDesc(user);
     }
     
+    @Transactional
+    public void clearChatHistory(User user) {
+        List<ChatMessage> messages = chatMessageRepository.findByUserOrderByCreatedAtDesc(user);
+        chatMessageRepository.deleteAll(messages);
+    }
+    
     public long getQACount() {
         return qaEntryRepository.count();
     }

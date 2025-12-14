@@ -40,10 +40,18 @@ Thumbs.db
 
 # SQLite Database
 *.db
+*.db-shm
+*.db-wal
 
 # Spring Boot
 HELP.md
 .mvn/
+
+# Old/unused files
+out/
+files/
+qa_store.txt
+users.txt
 
 # Application specific
 chatbot.db
